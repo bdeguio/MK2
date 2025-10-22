@@ -65,7 +65,7 @@ export default function SocialHoldingsPage() {
               <input
                 aria-label="Search holdings"
                 className="w-full max-w-sm rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/20"
-                placeholder="Search this investor's holdings"
+                placeholder="Search this investor holdings"
                 value={query}
                 onChange={e => setQuery(e.target.value)}
               />

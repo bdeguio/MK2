@@ -264,7 +264,7 @@ function FollowingSection() {
             </div>
           ))}
           {following.length === 0 && (
-            <div className="grid place-items-center py-8 text-sm text-white/60">You're not following anyone.</div>
+            <div className="grid place-items-center py-8 text-sm text-white/60">You are not following anyone.</div>
           )}
         </div>
       </Card>
